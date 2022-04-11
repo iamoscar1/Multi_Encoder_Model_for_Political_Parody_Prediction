@@ -1,3 +1,3 @@
-# Multisemantic_Encoders_Modes
+# Multisemantic_Encoders_Models
 This repository includes the core part of codes for the paper "Combining Humor and Sarcasm for Improving Political Parody Detection" accepted in NAACL 2022. Also, pre-trained Humor and Sarcasm semantic encoders are given through links https://drive.google.com/drive/folders/1fH5HaORzmgYpcffINcEmir9rQGl1ocSi?usp=sharing and https://drive.google.com/drive/folders/1-rl7RN5vJan315XVWkAUlRK2QW1fAeMC?usp=sharing for convenient use. You can download them and put them in the corresponding directory. Some hyper-parametrs have been adjusted to recent experiments. More details can be found in the paper.
 
