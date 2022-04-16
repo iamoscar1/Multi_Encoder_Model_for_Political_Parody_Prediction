@@ -68,7 +68,7 @@ class Process():
 
 
         tokenizer = AutoTokenizer.from_pretrained("vinai/bertweet-base", do_lower_case=True)
-        train_encodings = tokenizer(train_text_values.tolist(), max_length=85, truncation=True, padding=True)
+        train_encodings = tokenizer(train_text_values.tolist(), max_length=85, truncation=True, padding=True)  # tried with length 52
         val_encodings = tokenizer(validation_text_values.tolist(), max_length=85, truncation=True, padding=True)
         test_encodings = tokenizer(test_text_values.tolist(), max_length=85, truncation=True, padding=True)
 

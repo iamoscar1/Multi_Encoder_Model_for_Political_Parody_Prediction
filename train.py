@@ -90,7 +90,7 @@ class model_trainer():
                 logits = logits.detach().cpu().numpy()
                 preds.append(logits)
         final_preds = np.concatenate(preds, axis=0)
-        # print (len(final_preds))
+    
         final_preds = np.argmax(final_preds, axis=1)
 
 
